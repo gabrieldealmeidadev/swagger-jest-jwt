@@ -16,9 +16,15 @@ const doc = {
       description: "Enter JWT token in format: Bearer <token>",
     },
   },
+
+  security: [
+    {
+      bearerAuth: [],
+    },
+  ],
 };
 
 const outputFile = "./swagger-output.json";
-const routes = ["./src/server.ts"];
+const routes = ["./src/app.ts"];
 
 swaggerAutogen()(outputFile, routes, doc);

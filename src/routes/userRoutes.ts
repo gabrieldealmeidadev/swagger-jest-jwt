@@ -6,8 +6,8 @@ const userRoutes = Router();
 
 /*  #swagger.tags = ['Users'] */
 
-userRoutes.get("/", getUsers);
-userRoutes.post("/", createUser);
+userRoutes.get("/", AuthMiddlewares, getUsers);
+userRoutes.post("/", AuthMiddlewares, createUser);
 // router.put("/", updateUser);
 // router.delete("/", removeUser);
 
