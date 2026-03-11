@@ -1,3 +1,5 @@
+✅ Projeto api com typescrip, swaager autogen, prismaORM, jest
+
 # 1️⃣ Criar a pasta do projeto
 
 npm init -y
