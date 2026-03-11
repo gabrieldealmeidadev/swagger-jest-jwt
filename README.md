@@ -1,4 +1,4 @@
-✅ Projeto api com typescript, swaager autogen, prismaORM, jest
+✅ Projeto api com typescript, swagger autogen, prismaORM, jest
 
 # 1️⃣ Criar a pasta do projeto
 
